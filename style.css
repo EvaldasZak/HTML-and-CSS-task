@@ -1,0 +1,294 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 72px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+}
+
+#header {
+    padding: 25px 0;
+}
+
+#header .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+#header #main-menu ul {
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#header #main-menu ul li {
+    padding: 0 12px;
+    color: #555555;
+}
+
+#header #main-menu ul li:last-child {
+    padding: 0 0 0 12px;
+}
+
+#header #main-menu :nth-child(4){
+    color: #FF3998;
+}
+
+
+
+div #logo {
+    width: 150px;
+    display: flex;
+  
+}
+
+#logo img{
+    width: 20px;
+    height: 20px;
+}
+
+#hero {
+    margin-top: 45px;
+    
+}
+
+#hero .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#hero p.intro {
+    color: red;
+}
+
+#hero div.image1{
+    margin: 0 auto;
+}
+
+#hero p{
+    color: #555555;
+}
+
+#hero img {
+    max-width: 100%;
+    
+}
+
+#hero button {
+    border: solid 2px;
+    border-radius: 25px;
+    padding: 12px 35px;
+    color: black;
+    background: #fff;
+    margin-top: 15px;
+    border-color: #FF8139;
+}
+
+#banner {
+    margin-top: 85px;
+}
+
+#banner .wrapper {
+    background: linear-gradient(to right, rgb(227, 95, 95), rgb(227, 129, 32), rgb(84, 201, 156));
+    padding: 125px 25px 25px 25px;
+    color: black;
+    border-radius: 15px;
+}
+
+
+#logos {
+    margin-top: 85px;
+}
+
+#logos .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 95px;
+}
+
+#logos img {
+  
+    height: auto;
+    margin: auto;
+}
+
+#auction{
+    margin-top: 120px;
+}
+
+#auction p.open{
+    color:#555555;
+    
+}
+
+#cards {
+    margin-top: 85px;
+}
+#cards .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 35px;
+}
+#cards .card{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+#cards .card .image img{
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+#cards .card .content{
+    background: #dedede;
+    padding: 12px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-top: -5px;
+}
+#cta{
+    margin-top: 85px;
+    border-top: solid 1px #dedede;
+    border-bottom: solid 1px #dedede;
+    padding: 75px 0 0 0;
+}
+#cta .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#cta p.intro {
+    color: #FF3998;
+}
+
+#cta p.color{
+    color: #555555;
+    
+}
+
+#cta img {
+    max-width: 100%;
+}
+
+#cta button{
+    border: solid 2px;
+    border-radius: 25px;
+    padding: 12px 35px;
+    color: black;
+    background: #fff;
+    margin-top: 15px;
+    text-decoration: none;
+    border-color: #FF8139;
+ 
+}
+
+#cta div.greenImg{
+
+    padding: 5px 200px;  
+}
+
+#footer{
+    margin-top: 85px;
+}
+#footer .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#footer .social-links{
+    display: flex;
+    gap: 25px;
+}
+#footer .social-links img{
+    width: 25px;
+    height: auto;
+}
+#footer .links{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#footer .links h4{
+    margin-bottom: 15px;
+}
+#footer .links ul {
+    padding-left: 0;
+}
+#footer .links ul li {
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+#copyright{
+    margin-top: 85px;
+}
+#copyright .wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo img{
+    width: 20px;
+    height: 20px;
+}
+
+#footer img.vector{
+    width: 20px;
+    height: 20px;
+}
+
+#footer div.links a{
+    text-decoration: none;
+    color: #555555;
+}
+
+#footer div.links h4{
+    color: #555555;
+}
+
+#copyright p{
+    color: #555555;
+}
+
+#footer div p{
+    color: #555555;
+}
+
+@media (max-width:576px){
+
+
+div .wrapper{
+    display: block;
+    overflow: hidden;
+}
+
+div.image1{
+    position: absolute;
+    top: 100px;
+    right: -150px;
+}
+
+#hero{
+    padding: 20px 20px;
+}
+
+#header{
+    display: flex;
+}
+
+
+}
